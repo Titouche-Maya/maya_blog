@@ -1,0 +1,30 @@
+.post-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-bottom-style: groove;
+    grid-gap: 2%;
+    // grid-auto-rows: 55px;
+    // align-items: center;
+    justify-content: start;
+    align-content: center;
+    justify-items: start;
+  }
+  .post {
+    width: -webkit-fill-available;
+    background-color: #44b4e9;
+    margin: 5px;
+    color: white;
+    padding: 10%;
+ //   margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  span{
+    color: yellow;
+    margin: 5px;
+  }
+  a {
+    color: #f0efec;
+    font-size: small;
+    font-style: oblique;
+}

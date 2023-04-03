@@ -1,0 +1,21 @@
+<h4>Blog posts</h4>
+
+<div class="post-wrapper">
+
+
+</div>
+
+<div class="post-wrapper" *ngFor="let post of posts">
+
+   
+    <div class="post"  >
+        <div>
+            <span>Date :</span> {{post.date}}
+        </div>
+        <div>
+            <span>Title :</span> {{post.title.rendered}}
+        </div>
+        <a [routerLink]="['/post', post.id]">More details ...</a>
+    </div>
+
+</div>

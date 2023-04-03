@@ -1,0 +1,15 @@
+<div class="post-details-wrapper"  >
+
+    <div class="h-divider">Date :</div><div class="h-divider">{{post.date | date : 'medium'}}</div>
+
+    <div>Modified :</div> <div>{{post.modified | date : 'medium'}}</div>
+
+    <div>Title :</div><div>{{post.title.rendered}}</div>
+
+    <div>Comment status :</div><div>{{post.comment_status}}</div>
+
+    <div>Ping status :</div> <div>{{post.ping_status}}</div>
+
+    <div>Content :</div> <div>{{post.content.rendered}}</div>
+
+</div>

@@ -1,0 +1,33 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+}
+.toolbar img {
+    margin: 0 16px;
+}
+.content {
+    display: flex;
+    margin: 60px auto 0px;
+    flex-direction: column;
+    font-family: Georgia, serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+li {
+    float: left;
+    display: inline;
+    border-right: 1px solid #bbb;
+}
